@@ -64,15 +64,4 @@ input_data_numpy = np.asarray(input_data).reshape(1,-1)
 # Predict Rock or Mine based on input data
 input_array_predict = model.predict(input_data_numpy)
 print(f'Prediction is : {"Rock" if input_array_predict=="R" else "Mine"}')
-
-
-
-
-
-
-
-
-
-
-
-
+# End
